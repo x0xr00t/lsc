@@ -32,7 +32,7 @@ then
     read -p " {USER_INPUR} Enter The ModeName : " cvtm
     read -p " {USER_INPUT} Enter The ModeName Without the "" : " cvtmm
     xrandr --newmode $cvtl
-    xrandr --admode $cvts $cvtm
+    xrandr --addmode $cvts $cvtm
     echo ""
     echo ""
     echo " {Sl0ppyr00t} Is set to change ur screen"
