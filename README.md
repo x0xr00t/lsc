@@ -11,6 +11,7 @@ screen changer for linux writen in bash.
 * Copy the generated modeline string {"sizexsize_refresh_rate" ........"}
 * Enter the copied line. 
 * Copy the newmode {"sizexsize_refresh_rate"}
+* Enter the copied line
 
 Wait and there ya go. 
 Maybe needs manual display opening to make screens 2 independed once, and not clones.
