@@ -1,2 +1,7 @@
 # lsc
-screen changer linux writen in bash
+screen changer for linux writen in bash. 
+
+* ctv
+* xrandr
+
+
