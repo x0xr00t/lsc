@@ -13,5 +13,5 @@ screen changer for linux writen in bash.
 * Copy the newmode {"sizexsize_refresh_rate"}
 
 Wait and there ya go. 
-Maybe needs manual display opening to make screens 2 indipended once, and not clones.
+Maybe needs manual display opening to make screens 2 independed once, and not clones.
 Maybe it can be implented in bash that part but for now thats not covered. 
