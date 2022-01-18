@@ -2,7 +2,7 @@
 screen changer for linux writen in bash. 
 
 # uses 
-* ctv
+* cvt
 * xrandr
 
 # Install 
