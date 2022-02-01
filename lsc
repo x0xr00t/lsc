@@ -17,8 +17,10 @@ echo " Desired size example 1600 1200 60.00"
 read -p " {USER_INPUT} Please Enter The Desired Size. : " cvt
 echo ""
 echo ""
+read -p " {USER_INPUT} Please Enter the first screen {example: eDP-1} : " cvts1
 echo ""
-read -p " {USER_INPUT} Please Enter the Screen1 to apply change on : " cvts
+echo ""
+read -p " {USER_INPUT} Please Enter the Screen to apply change on : " cvts2
 echo ""
 echo ""
 echo ""
@@ -31,14 +33,14 @@ then
     read -p " {USER_INPUT} Enter The CVT Line : " cvtl
     read -p " {USER_INPUR} Enter The ModeName : " cvtm
     xrandr --newmode $cvtl
-    xrandr --addmode $cvts $cvtm
+    xrandr --addmode $cvts2 $cvtm
     echo ""
     echo ""
     echo " {Sl0ppyr00t} Is set to change ur screen"
     sleep 5
     echo "Sl0ppy Changing screen."
-    xrandr --output $cvts --mode $cvtm
-    xrandr --output $cvts --right-of eDP-1
+    xrandr --output $cvts2 --mode $cvtm
+    xrandr --output $cvts2 --right-of $cvts1
 fi
 # personal static settings
 #xrandr --newmode "1600x1200_50.00"  131.50  1600 1696 1864 2128  1200 1203 1207 1238 -hsync +vsync
