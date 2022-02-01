@@ -20,6 +20,9 @@ echo ""
 read -p " {USER_INPUT} Please Enter the first screen {example: eDP-1} : " cvts1
 echo ""
 echo ""
+read -p " {USER_INPUT} Please Enter the first screen {example:--left-of|--right-of} : " lor
+echo ""
+echo ""
 read -p " {USER_INPUT} Please Enter the Screen to apply change on : " cvts2
 echo ""
 echo ""
@@ -40,7 +43,7 @@ then
     sleep 5
     echo "Sl0ppy Changing screen."
     xrandr --output $cvts2 --mode $cvtm
-    xrandr --output $cvts2 --right-of $cvts1
+    xrandr --output $cvts2 $lor $cvts1
 fi
 # personal static settings
 #xrandr --newmode "1600x1200_50.00"  131.50  1600 1696 1864 2128  1200 1203 1207 1238 -hsync +vsync
