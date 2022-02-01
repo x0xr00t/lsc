@@ -21,5 +21,5 @@ Wait and there ya go.
 
 # change log 
 
-# fix for non mirrored screen
+# fix for non mirrored screens
 
