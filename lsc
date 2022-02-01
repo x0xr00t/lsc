@@ -18,7 +18,7 @@ read -p " {USER_INPUT} Please Enter The Desired Size. : " cvt
 echo ""
 echo ""
 echo ""
-read -p " {USER_INPUT} Please Enter the Screen to apply change on : " cvts
+read -p " {USER_INPUT} Please Enter the Screen1 to apply change on : " cvts
 echo ""
 echo ""
 echo ""
@@ -38,6 +38,7 @@ then
     sleep 5
     echo "Sl0ppy Changing screen."
     xrandr --output $cvts --mode $cvtm
+    xrandr --output $cvts --right-of eDP-1
 fi
 # personal static settings
 #xrandr --newmode "1600x1200_50.00"  131.50  1600 1696 1864 2128  1200 1203 1207 1238 -hsync +vsync
