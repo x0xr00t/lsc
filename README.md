@@ -18,5 +18,9 @@ chmod +x install. (this will cp the lsc to /bin/ with root perm.
 * Enter the copied line
 
 Wait and there ya go. 
-Maybe needs manual display opening to make screens 2 independed once, and not clones.
-Maybe it can be implented in bash that part but for now thats not covered. 
+
+# change log 
+
+* xrandr --right-of screen
+
+Improvement soon comming for if else left right side. 
