@@ -21,6 +21,5 @@ Wait and there ya go.
 
 # change log 
 
-* xrandr --right-of screen
+# fix for non mirrored screen
 
-Improvement soon comming for if else left right side. 
